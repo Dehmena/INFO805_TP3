@@ -66,7 +66,7 @@ function init() {
     camera = new THREE.PerspectiveCamera( 45, canvas.width / canvas.height,
         1, 4000 );
 
-    camera.position.set(0, 50, 20);
+    camera.position.set(-20, 10, 10);
     camera.lookAt(0,0,0);
 
 
